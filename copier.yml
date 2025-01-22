@@ -63,9 +63,9 @@ github_username:
     type: str
     help: What is your GitHub username?
 
-_tasks:
-    # Strings get executed under system's default shell
-    - "git init"
-    - "pixi run pre-commit-install"
-    - "git add ."
-    - "git commit -m 'Start project with copier'"
+#_tasks:
+#     Strings get executed under system's default shell
+#    - "git init"
+#    - "pixi run pre-commit-install"
+#    - "git add ."
+#    - "git commit -m 'Start project with copier'"
